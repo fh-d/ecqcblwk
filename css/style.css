@@ -1,0 +1,194 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: 'Open Sans', Helvetica, Arial, Sans-serif;
+overflow:hidden;
+}
+a {
+  color:white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+h1 {
+  color: #111; 
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 7em; 
+  font-weight: bold; 
+  letter-spacing: -1px; 
+  line-height: 1; 
+  text-align: left;
+}
+
+
+h2 {
+  color: #111; 
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 30px; 
+  font-weight: 300; 
+  line-height: 32px; 
+  margin: 0 0 72px; 
+  text-align: center;
+}
+h3 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+.compet1{
+  background-color: #fecd1b;
+}
+
+.compet2{
+  background-color: #f9654a;
+}
+.compet2 h1{
+  color: #9c187a;
+}
+.magnetic {
+    min-height: 100%;
+}
+ul {
+  margin-bottom: 30px;
+  padding-left: 10px;
+}
+pre,
+code {
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto;
+  display: block;
+  padding: 20px;
+  color: #994185;
+  background-color: white;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);
+}
+p {
+  max-width: 400px;
+  margin: 50px auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid white;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);
+}
+table th {
+  border-bottom: 1px solid white;
+}
+table th,
+table td {
+  padding: 6px 9px;
+}
+table tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.arrow {
+  margin:auto;
+  margin-top: 20%;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-image: url('expend38.svg');
+  background-color: white;
+
+}
+
+.flexbox-container {
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  min-height: 100%;
+  height: 100%;
+}
+
+.flexbox-container > div {
+  width: 50%;
+
+}
+.leftflex {
+  background-color: #451268;
+}
+.leftflex h1{
+  color: #f43284;
+}
+.rightflex {
+  background-color: #42c3d3;
+}
+.rightflex h1 {
+  color: #ffffff;
+}
+
+.leftagence {
+  background-image: url('../media/logoagence.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px;
+  background-color: #f8cfcd;
+}
+
+.rightsocial {
+  background-color: #07c879;
+}
+.rightsocial h1 {
+  color: #ffffff;
+}
+.paddedd{
+  padding: 8%;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+#parent-div {
+    width: 75%;
+    padding-top: 15%;
+}
+
+#div1 {
+    float: left; /* Commenting this out results in another weird result*/
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-image: url('../media/fb.png');
+}
+
+#div2 {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-image: url('../media/g.png');
+}
+
+#div3 {
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-image: url('../media/tw.png');
+
+}
+
+.child-div {
+    overflow: hidden;
+}
+
+
+
